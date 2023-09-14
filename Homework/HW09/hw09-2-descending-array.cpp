@@ -49,7 +49,7 @@ int main() {
     // printf( "c= %d", c ) ;
     // printf( "\n" ) ;
     
-    printf( "0-99 : " ) ;
+    printf( "0-99 :" ) ;
     for (i = 0 ; i < c-1 ; i++) {
         for ( j = i + 1 ; j < c - 1 ; j++ ) {
             if ( a [ i ] > a[ j ] ) {
@@ -60,13 +60,13 @@ int main() {
         }
     }
     for ( i = 0 ; i < c - 1 ; i++) {
-        printf("%d ", a[i]);
+        printf(" %d ", a[i]);
     }
 
     //end 0-99
 
     printf( "\n" ) ;
-    printf( "99-0 : " ) ;
+    printf( "99-0 :" ) ;
     for (i = 0 ; i < c-1 ; i++) {
         for ( j = i + 1 ; j < c - 1 ; j++ ) {
             if ( a [ j ] > a[ i ] ) {
@@ -77,7 +77,7 @@ int main() {
         }
     }
     for ( i = 0 ; i < c - 1 ; i++) {
-        printf("%d ", a[i]);
+        printf(" %d", a[i]);
     }
 
     return 0;
