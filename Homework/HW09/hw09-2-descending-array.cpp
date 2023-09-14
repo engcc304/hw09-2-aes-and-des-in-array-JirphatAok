@@ -60,7 +60,7 @@ int main() {
         }
     }
     for ( i = 0 ; i < c - 1 ; i++) {
-        printf(" %d ", a[i]);
+        printf(" %d", a[i]);
     }
 
     //end 0-99
@@ -82,49 +82,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-
-
-// #include <stdio.h>
-// int main () {
-//     int num = 100 ;
-//     int input[100] ;
-//     int c = 0 ;
-//     int max = -99999 ;
-//     int min = 99999 ;
-//     for (int i = 0 ; i < num ; i++) {
-//         printf( "Input :\n" ) ;
-//         scanf( "%d",&input[i] ) ; 
-//         c++ ;
-//         if ( input[i] < 0 ){
-//             break ;
-//         }   
-//     }
-    
-//     printf ( "c = %d\n",c ) ;
-//     printf ( "0-99 : ") ;
-//     for (int i = 0; i < c-1; i++) {
-//         if ( input[i] <= min && ) {
-//             min = input[i] ;
-//             printf( "%d ", min ) ;
-//             if ( min > input[i] ) {
-                
-//             }
-            
-//         }
-        
-        
-        // printf( "i = %d ", i ) ;
-    // printf ( "\n" ) ; 
-    // printf ( "99-0 : ") ;
-    // for (int i = 0; i < c-1; i++) {
-    //     if (input[i] >= max) {
-    //         max = input[i];
-    //         printf( "%d ", max ) ;
-    //     }
-        
-    // }
