@@ -45,9 +45,9 @@ int main() {
     }//end for array
 
     
-    printf( "\n" ) ;
-    printf( "c= %d", c ) ;
-    printf( "\n" ) ;
+    // printf( "\n" ) ;
+    // printf( "c= %d", c ) ;
+    // printf( "\n" ) ;
     
     printf( "0-99 : " ) ;
     for (i = 0 ; i < c-1 ; i++) {
