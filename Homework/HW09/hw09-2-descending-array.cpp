@@ -38,11 +38,11 @@ int main() {
         c++ ;
     } //end for loop
 
-    printf( "array = " ) ;
-    for (int i = 0 ; i < c-1 ; i++) {
-        printf("%d ", a[i]);
+    // printf( "array = " ) ;
+    // for (int i = 0 ; i < c-1 ; i++) {
+    //     printf("%d ", a[i]);
 
-    }//end for array
+    // }//end for array
 
     
     // printf( "\n" ) ;
